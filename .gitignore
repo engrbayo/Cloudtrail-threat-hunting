@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+crash.log
+
+# Lambda build artifacts
+.build/
+
+# Environment / secrets
+*.env
+*.pem
+*.key
